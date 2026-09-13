@@ -1,0 +1,26 @@
+{
+  "circuits": [
+    {
+      "name": "increment",
+      "pure": false,
+      "arguments": [
+        {
+          "name": "amount_to_add",
+          "type": {
+            "type-name": "Uint",
+            "maxval": 4294967295
+          }
+        }
+      ],
+      "result-type": {
+        "type-name": "Tuple",
+        "types": [
+        ]
+      }
+    }
+  ],
+  "witnesses": [
+  ],
+  "contracts": [
+  ]
+}

@@ -1,3 +1,7 @@
+pragma language_version >= 0.17;
+
+import CompactStandardLibrary;
+
 // Counter Contract
 // 
 // Privacy Model:
@@ -6,15 +10,9 @@
 //            It is never exposed on-chain in its raw form unless intentionally disclosed.
 // - We use `disclose()` deliberately to reveal the private `amount_to_add` so it can be added to the public counter.
 
-pragma compact-v0;
-
-export ledger counter: Cell<Uint<32>>;
+export ledger counter: Uint<32>;
 
 export circuit increment(amount_to_add: Uint<32>): [] {
-    // Deliberately disclose the private witness
-    let amount = disclose(amount_to_add);
-    
     // Increment the public counter
-    let current_val = counter;
-    counter = current_val + amount;
+    counter = (counter + disclose(amount_to_add)) as Uint<32>;
 }

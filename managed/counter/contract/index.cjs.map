@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.cjs",
+  "sourceRoot": "../../../contracts/",
+  "sources": ["counter.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;;;;;;;;;;MAcA,AAAA,SAGC;;;;;cAHwB,eAAuB;;;;;;;;;;;;;;;;;;yCAAvB,eAAuB;;;;;;;;;2CAAvB,eAAuB;;;OAG/C;;;GACA;EAlBD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAYA;;;;;;;;;uDAAgC;;;;;;;GAM/B;EAJD,AAAA,YAGC,4BAHwB,eAAuB;UAE5C,KAAO;;;;;6CAAI;;;;;;;;;;;gGAAO;;qBAAY,eAAa;IAA3C;;;;;;;yGAAA,KAAO;;uDAAA;;GACV;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IALD;qCAAA;;;;;;;;;;;wFAAgC;KAAA;;;;;;;;;;;;;;"
+}
