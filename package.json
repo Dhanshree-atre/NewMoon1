@@ -1,0 +1,16 @@
+{
+  "name": "newmoon1",
+  "version": "1.0.0",
+  "description": "> A simple smart contract on Midnight to increment a counter using private witness disclosure.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
